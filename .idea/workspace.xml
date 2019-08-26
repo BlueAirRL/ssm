@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="112034fe-7f38-4475-8da3-7452737cdcec" name="Default Changelist" comment="" />
+    <list default="true" id="112034fe-7f38-4475-8da3-7452737cdcec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,17 +40,34 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="1PxpK7BlRCUvRNnq9D4hbnbXNhz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/javax/servlet/jsp/jstl/jstl/1.2/jstl-1.2.jar!/" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3268832" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install:install-file -Dfile=/home/wuyong/.m2/repository/javax/servlet/jsp/jstl/jstl/1.2/jstl-1.2.jar" />
+      <command value="mvn install:install-file -Dfile=/home/wuyong/.m2/repository/javax/servlet/jsp/jstl/jstl/1.2/jstl-1.2.jar -DgroupId=javax.servlet.jsp.jstl -DartiactId=jstl -Dversion=1.2 -Dpackaging=jar" />
+      <command value="install:install-file -Dfile=/home/wuyong/.m2/repository/javax/servlet/jsp/jstl/jstl/1.2/jstl-1.2.jar -DgroupId=javax.servlet.jsp.jstl -DartifactId=jstl -Dversion=1.2 -Dpackaging=jar" />
+      <command value="mvn install:install-file -Dfile=/home/wuyong/.m2/repository/javax/servlet/jsp/jstl/jstl/1.2/jstl-1.2.jar -DgroupId=javax.servlet.jsp.jstl -DartifactId=jstl -Dversion=1.2 -Dpackaging=jar" />
+      <command value="mvn install:install-file -Dfile=/home/wuyong/jars/jstl-1.2.jar -DgroupId=javax.servlet.jsp.jstl -DartifactId=jstl -Dversion=1.2 -Dpackaging=jar" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,7 +91,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566825534980</updated>
-      <workItem from="1566825542039" duration="1852000" />
+      <workItem from="1566825542039" duration="3259000" />
+      <workItem from="1566829508394" duration="2813000" />
+      <workItem from="1566832452538" duration="1496000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1566826819732</created>
@@ -84,7 +120,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
