@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112034fe-7f38-4475-8da3-7452737cdcec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oukele/bookshop_ssm/dao/IBookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oukele/bookshop_ssm/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oukele/bookshop_ssm/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oukele/bookshop_ssm/service/BookServiceTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oukele/bookshop_ssm/web/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring_root.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring_web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +34,14 @@
     <expand />
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -44,7 +61,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1PxpK7BlRCUvRNnq9D4hbnbXNhz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -81,6 +100,21 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="All in SSM_demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSM_demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in SSM_demo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -94,6 +128,8 @@
       <workItem from="1566825542039" duration="3259000" />
       <workItem from="1566829508394" duration="2813000" />
       <workItem from="1566832452538" duration="1496000" />
+      <workItem from="1566834003696" duration="404000" />
+      <workItem from="1566920186359" duration="979000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1566826819732</created>
@@ -109,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566826883196</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="config jars for this project;&#10;&#10;for example:&#10;&#10;mvn install:install-file -Dfile=/home/wuyong/jars/jstl-1.2.jar -DgroupId=javax.servlet.jsp.jstl -DartifactId=jstl -Dversion=1.2 -Dpackaging=jar">
+      <created>1566834220139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566834220139</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="config jars for this project;&#10;&#10;for example:&#10;&#10;mvn install:install-file -Dfile=/home/wuyong/jars/jstl-1.2.jar -DgroupId=javax.servlet.jsp.jstl -DartifactId=jstl -Dversion=1.2 -Dpackaging=jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="config jars for this project;&#10;&#10;for example:&#10;&#10;mvn install:install-file -Dfile=/home/wuyong/jars/jstl-1.2.jar -DgroupId=javax.servlet.jsp.jstl -DartifactId=jstl -Dversion=1.2 -Dpackaging=jar" />
   </component>
 </project>
